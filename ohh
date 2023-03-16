@@ -1,0 +1,17 @@
+local playerMod = require(game:GetService("Players").LocalPlayer.PlayerScripts:WaitForChild("PlayerModule"))
+
+
+
+local controls = playerMod:GetControls()
+
+
+
+
+controls:Disable()
+	
+     while wait() 
+ do
+Game.ReplicatedStorage.RemoteEvents.Equip:FireServer
+"Piano"
+anything = true
+ end
